@@ -144,3 +144,12 @@ header {
 	margin: 2rem 0;
 	font-size: 34px;
 }
+
+/** Plans Section Styling */
+.plans {
+	width: 100%;
+	margin: 130px 0;
+}
+.plans .title {
+	text-align: center;
+}
