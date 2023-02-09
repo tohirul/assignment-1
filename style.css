@@ -133,7 +133,7 @@ header {
 	width: 360px;
 	padding: 3rem 2rem 2rem;
 	border-radius: 5px;
-	box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.1);
 
 	display: flex;
 	flex-direction: column;
@@ -151,5 +151,29 @@ header {
 	margin: 130px 0;
 }
 .plans .title {
+	margin: 55px 0;
 	text-align: center;
+}
+.plans .current-goals {
+	display: flex;
+	justify-content: center;
+	gap: 6rem;
+}
+.current-goals .running-goal {
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.running-goal h3 {
+	margin: 1rem 0;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+}
+.running-goal p {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
 }
