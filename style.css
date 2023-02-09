@@ -52,6 +52,12 @@ header {
 	letter-spacing: 0em;
 	text-align: left;
 }
+.description {
+	padding-left: 0.4rem;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
 
 /** This border is used for testing purposes */
 .outline-border {
@@ -85,12 +91,6 @@ header {
 	font-weight: 700;
 	line-height: 1.1;
 }
-.banner-text .description {
-	padding-left: 0.4rem;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-}
 
 /** Goals Section Styles */
 .goals {
@@ -106,10 +106,41 @@ header {
 	list-style-type: none;
 }
 .info {
+	width: 420px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .info img {
 	margin-right: 1rem;
+}
+
+/** Accomplished Goal Section */
+.accomplished .accomplished-goals {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+}
+.accomplished .title {
+	text-align: center;
+	margin: 60px;
+}
+
+.accomplished img {
+	width: 100px;
+}
+.completed-goal {
+	width: 360px;
+	padding: 3rem 2rem 2rem;
+	border-radius: 5px;
+	box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.2);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+}
+.completed-goal h4 {
+	margin: 2rem 0;
+	font-size: 34px;
 }
