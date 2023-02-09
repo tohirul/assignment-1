@@ -45,6 +45,7 @@ h3 {
 	transition: box-shadow 0.5s ease-in-out;
 }
 .btn:hover {
+	background: white;
 	box-shadow: 4px 8px 10px orange;
 }
 .title {
