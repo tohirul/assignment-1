@@ -45,6 +45,13 @@ header {
 .btn:hover {
 	box-shadow: 4px 8px 10px orange;
 }
+.title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 47px;
+	letter-spacing: 0em;
+	text-align: left;
+}
 
 /** This border is used for testing purposes */
 .outline-border {
@@ -83,4 +90,26 @@ header {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
+}
+
+/** Goals Section Styles */
+.goals {
+	margin: 130px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.info-list {
+	width: 420px;
+	margin-left: 5rem;
+
+	list-style-type: none;
+}
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.info img {
+	margin-right: 1rem;
 }
