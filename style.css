@@ -46,6 +46,7 @@ h3 {
 }
 .btn:hover {
 	box-shadow: 4px 8px 10px orange;
+	cursor: pointer;
 }
 .title {
 	font-size: 40px;
